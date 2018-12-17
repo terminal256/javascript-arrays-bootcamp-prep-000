@@ -38,4 +38,6 @@ function removeElementFromEndOfArray(array){
   return array.slice(0, array.length)
 }
 
-function 
+function accessElementInArray(array , index){
+  return array[index]
+}
